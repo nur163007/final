@@ -1,0 +1,96 @@
+*{
+ margin:0;
+ padding:0;
+ outline:0;
+                
+}
+img{
+	vertical-align:middle;
+}
+
+a, a:hover{
+	list-style-type:none;
+}
+
+h1,h2,h3,h4,h5,h6,a ,input,button,ul,ol,p{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	             background: url(background4.jpg)no-repeat;
+				  background-position: center center;
+			      width: 100%;
+                  height:auto;
+                  background-repeat: no-repeat;
+                  background-position: center center;
+                  background-size: cover;
+                  background-attachment: fixed;
+				
+}
+html{
+	  scroll-behavior:smooth;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	color:green;
+    text-transform:capitalize;	
+}
+
+/*navbar part start*/
+
+.navbar-brand img{
+	width:130px;
+	height:70px;
+	user-select:none;
+}
+
+.bg-light .navbar-nav .nav-link{
+	transition:all linear .2s;
+	
+}
+.bg-light .navbar-nav .nav-link:hover{
+	background:#088A08;
+	color:white;
+}
+
+.dropdown .dropdown-menu a:hover{	
+  background-color: green;
+  color: white;
+  transition:all linear .2s;
+}
+.dropdown:hover .dropdown-menu{	
+  display:block;
+}
+/*navbar part end*/
+
+/*footer part start*/
+	.footer-top .segment-four form input[type="submit"]{
+	background:#c65039;
+	border-radius:5px;
+	border:none;
+	margin-left:23px;
+	padding:3px 12px;
+	color:#fff;
+	width:110px;
+	
+		
+}
+.footer-top .segment-four form input[type="submit"]:hover{
+	background:red;
+}
+.footer-top form input[type="email"]{
+		margin:10px 0 10px 5%;
+		background-color:white;
+		border:2px solid #3d8c50;
+		border-radius:0;
+		height:40px;
+		text-align:center;
+		padding:10px;
+		color:black;
+		width:80%;
+	
+	}
+/*footer part end*/
